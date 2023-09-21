@@ -7,8 +7,8 @@ import ThemeSwitch from './theme/ThemeSwitch';
 export default function Header() {
     const [isNavOpen, setIsNavOpen] = useState(false);
 
-    const showNavMenu = 'bg-white dark:bg-gray-900 block w-full h-screen z-10 flex flex-col top-0 left-0 absolute justify-evenly items-center'
-
+    const showNavMenu =
+        'bg-white dark:bg-gray-900 block w-full h-screen z-10 flex flex-col top-0 left-0 absolute justify-evenly items-center';
 
     return (
         <header className='border-b pb-2 border-gray-400  bg-gray-200/10 flex flex-wrap items-center justify-between mb-10 dark:bg-gray-800 '>
@@ -65,25 +65,27 @@ export default function Header() {
                 </section>
 
                 {/* Desktop menu */}
-                <ul className='hidden space-x-8 lg:flex justify-center items-center'>
-                    <li>
-                        <Link href='/About' className='hover:underline hover:text-orange-500'>
-                            Про додаток
-                        </Link>
-                    </li>
+                <section>
+                    <ul className='hidden space-x-8 lg:flex justify-center items-center'>
+                        <li>
+                            <Link href='/About' className='hover:underline hover:text-orange-500'>
+                                Про додаток
+                            </Link>
+                        </li>
 
-                    <li>
-                        <Link
-                            href='https://antonkornilovcv.vercel.app/'
-                            target='_blank'
-                            className='hover:underline hover:text-orange-500'>
-                            Розробник
-                        </Link>
-                    </li>
-                    <li>
-                        <ThemeSwitch />
-                    </li>
-                </ul>
+                        <li>
+                            <Link
+                                href='https://antonkornilovcv.vercel.app/'
+                                target='_blank'
+                                className='hover:underline hover:text-orange-500'>
+                                Розробник
+                            </Link>
+                        </li>
+                        <li>
+                            <ThemeSwitch />
+                        </li>
+                    </ul>
+                </section>
             </nav>
         </header>
     );
