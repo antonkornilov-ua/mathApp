@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Додаток "Математичні приклади"
 
-## Getting Started
+## Опис
 
-First, run the development server:
+Додаток "Математичні приклади" - це весела та освітня програма, створена з метою поліпшення навичок математики у дітей та дорослих. З допомогою цього додатку, користувачі можуть покращити свої знання та впевненість у різних аспектах математики. Основні можливості додатку включають:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## Повторення множення у рамках таблиці множення
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Додаток генерує випадкові математичні приклади для множення, але лише з використанням чисел, які належать до таблиці множення (від 1 до 10, наприклад). Це дозволяє користувачам систематично вдосконалювати свої навички множення в межах цих обмежень. Відповіді можна перевіряти миттєво, що допомагає користувачам слідкувати за своїм прогресом та виправляти помилки.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Повторення ділення
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Користувачам надаються приклади для ділення, де ділене генерується в межах від 1 до 100, а дільник - від 2 до 10. Всі розрахунки завжди дають цілі числа, що сприяє кращому розумінню процесу ділення. Практика ділення допомагає користувачам розвивати навички виконання ділення без залишку та розуміння важливих понять в математиці.
 
-## Learn More
+## Зручний інтерфейс та адаптивний дизайн
 
-To learn more about Next.js, take a look at the following resources:
+Додаток "Математичні приклади" розроблений з урахуванням простоти використання та навчання. Адаптивний дизайн дозволяє користувачам насолоджуватися зручним та оптимізованим інтерфейсом на різних пристроях та розмірах екранів. Незалежно від того, чи ви користуєтесь додатком на смартфоні, планшеті чи комп'ютері, ви завжди будете мати зручний доступ до ваших математичних прикладів.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Темна та світла теми
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Ми розуміємо, що кожен користувач має свої вподобання та потреби, тому ми надаємо можливість вибору між темною та світлою темами відповідно до вашого стилю та настрою. Так ви можете користуватися додатком в зручному для вас режимі.
 
-## Deploy on Vercel
+## Технології
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Додаток "Математичні приклади" побудований на основі сучасних технологій:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Next.js**: Використання Next.js забезпечує швидку та ефективну роботу додатку, забезпечуючи односторінковий додаток зі зручним маршрутизатором.
+
+- **TypeScript**: TypeScript допомагає забезпечити безпеку типів та покращити розробку додатку.
+
+- **Tailwind CSS**: З використанням Tailwind CSS ми забезпечуємо швидку та гнучку розробку інтерфейсу, що легко налаштовується та адаптовується.
+
+## Завершення
+
+Додаток "Математичні приклади" призначений для всіх вікових груп, які прагнуть покращити свої математичні навички та розвинути освітній потенціал. Ми надаємо зручність, навчання та насолоду від математики в одному додатку. Приємного навчання!
+
