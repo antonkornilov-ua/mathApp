@@ -18,7 +18,7 @@ export default function Header() {
                 Математичні приклади
             </Link>
 
-            <nav>
+            <div>
                 {/* mobile view */}
                 <section className='flex lg:hidden'>
                     <div className='space-y-2' onClick={() => setIsNavOpen((prev) => !prev)}>
@@ -86,7 +86,7 @@ export default function Header() {
                         </li>
                     </ul>
                 </section>
-            </nav>
+            </div>
         </header>
     );
 }

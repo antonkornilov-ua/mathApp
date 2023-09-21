@@ -1,4 +1,4 @@
-import NavButton from '@/Components/Game/NavButton';
+import NavButton from '@/Components/NavButton';
 import React from 'react';
 
 export default function About() {

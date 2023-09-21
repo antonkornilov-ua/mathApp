@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { isAnswerCorrect, renderAnswerMessage } from  './checkAnswer'
-import { randomOneToHundred, randomTwoToTen } from './Randoms/randomNumbers';
+import { isAnswerCorrect, renderAnswerMessage } from './checkAnswer';
+import { randomOneToHundred, randomTwoToTen } from '../utils/randomNumbers';
 
 const DivisionQuestion = () => {
     const [userAnswer, setUserAnswer] = useState('');
@@ -37,8 +37,6 @@ const DivisionQuestion = () => {
     const handleAnswerChange = (event: React.ChangeEvent<HTMLInputElement>) => {
         setUserAnswer(event.target.value);
     };
-
-    
 
     const borderClassName =
         userAnswer === ''

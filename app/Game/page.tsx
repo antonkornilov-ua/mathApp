@@ -1,9 +1,9 @@
 'use client';
-import MultiplicationQuestion from '@/Components/Game/MultiplicationQuestion';
+import MultiplicationQuestion from '@/Components/MultiplicationQuestion';
 import React from 'react';
-import { randomOneToTen } from '@/Components/Game/Randoms/randomNumbers';
-import DivisionQuestion from '@/Components/Game/DivisionQuestion';
-import NavButton from '@/Components/Game/NavButton';
+import { randomOneToTen } from '@/utils/randomNumbers';
+import DivisionQuestion from '@/Components/DivisionQuestion';
+import NavButton from '@/Components/NavButton';
 
 export default function Game() {
     return (

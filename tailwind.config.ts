@@ -1,18 +1,16 @@
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './сomponents/**/*.{js,ts,jsx,tsx,mdx}',
-    './context/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
-  theme: {
-    extend: {
-      
+    content: [
+        './pages/**/*.{js,ts,jsx,tsx,mdx}',
+        './Components/**/*.{js,ts,jsx,tsx,mdx}',
+        './context/**/*.{js,ts,jsx,tsx,mdx}',
+        './app/**/*.{js,ts,jsx,tsx,mdx}',
+    ],
+    theme: {
+        extend: {},
     },
-  },
-  plugins: [],
-  darkMode:'class',
-}
+    plugins: [],
+    darkMode: 'class',
+};
 export default config
