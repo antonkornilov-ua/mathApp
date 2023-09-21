@@ -9,7 +9,7 @@ const roboto = Roboto({ weight: '400', subsets: ['latin'] });
 
 export const metadata: Metadata = {
     title: 'Math App',
-    description: 'Create to help my son understand the basics',
+    description: 'Вдоскональте свої навички!',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
